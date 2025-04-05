@@ -1,34 +1,24 @@
-# Developer Updates
-03/08/2024: RapidAPI now requires bank card information in order to access the Open Weather Map API.
 # WeatherAPI
-An API I've created to find out the current weather for a given location
-## Motivation
-This project helped me understand the vast utility of APIs and their benefits. By utilising the Open Weather Map API from RapidAPI, I was able to obtain weather data in JSON format which I parsed and displayed on JSP pages.
-## Screenshots
-- Search page
-![alt-text](https://github.com/PSReyat/WeatherAPI/blob/master/WeatherAPI_README.md%20at%20master%20%C2%B7%20PSReyat_WeatherAPI%20-%20Google%20Chrome%2026_03_2021%2014_44_20.png)
-- Current weather for searched city
-![alt-text](https://github.com/PSReyat/WeatherAPI/blob/master/WeatherAPI_README.md%20at%20master%20%C2%B7%20PSReyat_WeatherAPI%20-%20Google%20Chrome%2026_03_2021%2014_44_38.png)
-- Five day weather forecast
-![alt-text](https://github.com/PSReyat/WeatherAPI/blob/master/WeatherAPI_README.md%20at%20master%20%C2%B7%20PSReyat_WeatherAPI%20-%20Google%20Chrome%2026_03_2021%2014_44_53.png)
-## Gif
-- Search city functionality
 
-![alt-text](https://media.giphy.com/media/aTWkdighzUiwfzxrA5/giphy.gif)
-- Searching a city with the same name but different country (London in the USA example)
+A simple web application that provides current weather information and a 5-day forecast for any given city.
 
-![alt-text](https://media.giphy.com/media/gaTYEllI5rxhxAMgFX/giphy.gif)
-- Five day forecast
+### Features
+- **Search for Weather**: Enter a city name to get the current weather.
+- **Five-Day Forecast**: Displays a 5-day weather forecast for the searched city.
 
-![alt-text](https://media.giphy.com/media/gt0hmdGvHT0lnC5wAU/giphy.gif)
-## Languages
-- Java
-- JavaScript
-- HTML
-- CSS
-## Technologies used
-- Spring Boot
-- JSP pages
-- Bootstrap 4
-- JSTL
-- Joda-Time Library
+### Technologies Used
+- **Backend**: Java, Spring Boot
+- **Frontend**: JSP Pages, JavaScript, HTML, CSS
+- **UI**: Bootstrap 4
+- **Libraries**: JSTL, Joda-Time Library
+- **API**: Open Weather Map API (via RapidAPI)
+
+### How It Works
+1. The application fetches weather data from the Open Weather Map API.
+2. The data is parsed and displayed on JSP pages, showing the current weather and a 5-day forecast.
+3. The app allows users to search for weather by city, including cities with the same name in different countries (e.g., London in the USA).
+
+### Setup
+- Clone the repository.
+- Configure the API connection to Open Weather Map via RapidAPI.
+- Run the Spring Boot application.
